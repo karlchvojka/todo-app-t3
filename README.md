@@ -1,29 +1,57 @@
-# Create T3 App
+# Todo Test App - Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
+## Usage
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+1. Clone project into folder
+2. Cd into root folder
+3. Run install
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+```
+npm install
+```
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+4. Run project
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## What is this app
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- Home page
+  - Welcome blurb
+  - Login functionality
+- Account management
+  - Login system
+  - Profile
+    - Firstname
+    - Last Name
+    - Email address
+    - Profile Image via url
+  - Todo list
+    - Todos
+      - Title
+      - Created date
+      - Target completion date
+      - Description
+      - Status (Unstarted, Ongoing, Completed)
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Todo List for Todo App
 
-## How do I deploy this?
+### Required Functionality
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- [ ] - Able to Create an account
+- [ ] - Able to Fill out profile
+- [ ] - Able to change profile
+- [ ] - Able to create todos
+- [ ] - Able to edit todos
+- [ ] - Able to change Todo status
+
+### Required Pages
+
+- [ ] - Home
+- [ ] - Signin
+- [ ] - Profile
+- [ ] - Todo List
