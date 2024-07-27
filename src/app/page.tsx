@@ -20,6 +20,8 @@ export default async function Home() {
       <Header />
       <main>
         <h1>Create T3 Todo App</h1>
+
+        <p>footer here</p>
       </main>
       
       <footer className="bg-neutral-900">
