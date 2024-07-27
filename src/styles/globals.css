@@ -1,3 +1,215 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  color: #ffffff;
+}
+
+html,
+body {
+  @apply h-screen;
+  min-width: 350px;
+}
+
+body {
+  background-color: #262626;
+}
+
+/* GLOBAL FONT STYLES */
+/* GLOBAL DEFAULTS */
+html {
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h1 {
+  font-family: "MontserratBold", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "MontserratBold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "MontserratBold", sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "MontserratBold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "MontserratBold", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: "MontserratBold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* END GLOBAL DEFAULTS */
+
+/* MOBILE FIRST DEFAULT STYLES */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+/* Min width of 768 */
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  h6 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Min width of 1024 */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.75rem;
+  }
+
+  h6 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.75rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 2.25rem;
+  }
+
+  h5 {
+    font-size: 2.25rem;
+  }
+
+  h6 {
+    font-size: 2.25rem;
+  }
+}
