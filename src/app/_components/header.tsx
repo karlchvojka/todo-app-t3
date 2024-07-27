@@ -43,12 +43,12 @@ export default function Header() {
           TodoApp
         </p>
       </div>
-      <div id="navWrap" className="flex flex-row p-4">
+      <div id="navWrap" className="flex flex-row">
         <span className="material-symbols-outlined !text-6xl text-lime-500 hover:cursor-pointer hover:text-white">
           menu
         </span>
 
-        <ul className="flex w-full flex-col gap-4 md:flex-row">
+        <ul className="flex w-full flex-col gap-4 self-center md:flex-row">
           {navItems.map((item: NavItemsProps, index) => {
             return (
               <NavLink
