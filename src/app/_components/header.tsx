@@ -42,6 +42,8 @@ export default function Header() {
         <h1 className="text-center">TodoApp</h1>
       </div>
       <div id="navWrap" className="flex flex-row p-4">
+        <span className="material-symbols-outlined !text-6xl">menu</span>
+
         <ul className="flex w-full flex-col gap-4 md:flex-row">
           {navItems.map((item: NavItemsProps, index) => {
             return (
