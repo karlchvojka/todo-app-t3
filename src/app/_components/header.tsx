@@ -33,16 +33,20 @@ export default function Header() {
   return (
     <div
       id="headerWrap"
-      className="flex flex-col justify-between bg-slate-700 p-4 shadow-lg md:flex-row"
+      className="flex flex-col justify-between bg-black p-4 shadow-lg md:flex-row"
     >
-      <span className="material-symbols-outlined self-center !text-6xl">
+      <span className="material-symbols-outlined self-center !text-6xl text-lime-500 hover:cursor-pointer hover:text-white">
         check_box
       </span>
       <div className="self-center">
-        <h1 className="text-center">TodoApp</h1>
+        <p id="appTitle" className="text-center text-lime-500">
+          TodoApp
+        </p>
       </div>
       <div id="navWrap" className="flex flex-row p-4">
-        <span className="material-symbols-outlined !text-6xl">menu</span>
+        <span className="material-symbols-outlined !text-6xl text-lime-500 hover:cursor-pointer hover:text-white">
+          menu
+        </span>
 
         <ul className="flex w-full flex-col gap-4 md:flex-row">
           {navItems.map((item: NavItemsProps, index) => {
