@@ -14,6 +14,8 @@ export default async function Home() {
     <HydrateClient>
       <main>
         <h1>Create T3 Todo App</h1>
+
+        <p>footer here</p>
       </main>
     </HydrateClient>
   );
