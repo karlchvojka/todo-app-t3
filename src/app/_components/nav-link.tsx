@@ -1,31 +1,13 @@
 interface Props {
-  href: string,
-  label: string
+  href: string;
+  label: string;
 }
 
-export default function NavLink({href, label}: Props) {
+export default function NavLink({ href, label }: Props) {
   return (
-    <li className="w-full" >
-      <a 
-        className="
-        bg-slate-600
-        block
-        border-slate-600
-        border-2
-        font-bold
-        font
-        rounded-md
-        p-4
-        shadow-sm
-        text-center
-        text
-        text-2xl
-        uppercase
-        w-full
-        hover:bg-slate-900
-        hover:text-white
-        hover:border-slate-900" 
-        
+    <li className="w-full">
+      <a
+        className="block w-full rounded-md border-0 bg-lime-900 p-4 text-center text-2xl font-bold uppercase text-white shadow-sm hover:border-slate-900 hover:bg-lime-600 hover:text-black"
         href={href}
       >
         {label}
