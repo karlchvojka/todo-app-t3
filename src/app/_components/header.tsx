@@ -39,7 +39,9 @@ export default function Header() {
         check_box
       </span>
       <div className="self-center">
-        <h1 className="text-center">TodoApp</h1>
+        <p id="appTitle" className="text-center">
+          TodoApp
+        </p>
       </div>
       <div id="navWrap" className="flex flex-row p-4">
         <span className="material-symbols-outlined !text-6xl">menu</span>
