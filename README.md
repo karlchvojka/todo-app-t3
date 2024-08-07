@@ -37,3 +37,11 @@ npm run dev
       - Target completion date
       - Description
       - Status (Unstarted, Ongoing, Completed)
+
+## Current Branch Todo:
+### SM (>= 640)
+- [ ] Show burger menu
+- [ ] Implement drop down
+### MD (>= 768)
+### LG (>= 1024)
+### XL (>= 1280)
