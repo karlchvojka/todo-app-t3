@@ -75,7 +75,7 @@ export default function Header() {
       id="headerWrap"
       className="flex flex-row justify-between bg-black p-2 md:p-4 shadow-lg"
     >
-      <div id="marketingWrap" className="flex flex-row w-5/6">
+      <div id="marketingWrap" className="flex flex-row w-5/6 md:w-1/3 lg:w-1/2 xl:w-2/3 2xl:w-2/3">
         <span className="w-1/6 material-symbols-outlined self-center !text-5xl text-lime-500 hover:cursor-pointer hover:text-white">
           check_box
         </span>
@@ -85,14 +85,14 @@ export default function Header() {
           </p>
         </div>
       </div>
-      <div id="navWrap" className="w-1/6" ref={ref}>
-        <button id="menuButton" className="w-full h-full text-end" onClick={() => operateMenu()}>
+      <div id="navWrap" className="w-1/6 md:w-2/3 lg:w-1/2 xl:1/3 2xl:w-1/3" ref={ref}>
+        <button id="menuButton" className="w-full h-full text-end md:hidden" onClick={() => operateMenu()}>
           <span id="menuButtSpan" className="!block my-auto mx-0 material-symbols-outlined !text-5xl text-lime-500 hover:cursor-pointer hover:text-white">
             menu
           </span>
         </button>
 
-        <ul id="navList" className={`${menuDisplay ? 'flex' : 'hidden'} bg-black absolute p-2 left-0 md:flex w-full flex-col gap-4 md:flex-row`}>
+        <ul id="navList" className={`${menuDisplay ? 'flex' : 'hidden'} bg-black absolute md:relative p-2 left-0 md:flex w-full md:w-auto flex-col gap-4 md:flex-row`}>
           {navItems.map((item: NavItemsProps, index) => {
             return (
               <NavLink
