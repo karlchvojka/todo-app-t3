@@ -39,12 +39,6 @@ npm run dev
       - Status (Unstarted, Ongoing, Completed)
 
 ## Current Branch Todo:
-### Mobile (<= 640):
-- [ ] Hide burger menu
-- [ ] Always show nav
-- [ ] Buttons full width
-- [ ] Buttons 20% taller?
-- [ ] Logo and the title side by side.
 ### SM (>= 640)
 - [ ] Show burger menu
 - [ ] Implement drop down
