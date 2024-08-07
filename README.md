@@ -37,3 +37,17 @@ npm run dev
       - Target completion date
       - Description
       - Status (Unstarted, Ongoing, Completed)
+
+## Current Branch Todo:
+### Mobile (<= 640):
+- [ ] Hide burger menu
+- [ ] Always show nav
+- [ ] Buttons full width
+- [ ] Buttons 20% taller?
+- [ ] Logo and the title side by side.
+### SM (>= 640)
+- [ ] Show burger menu
+- [ ] Implement drop down
+### MD (>= 768)
+### LG (>= 1024)
+### XL (>= 1280)
