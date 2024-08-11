@@ -10,6 +10,13 @@ body {
 
 body {
   background-color: #262626;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.75), 
+    rgba(0, 0, 0, 1)
+  ), url('~/public/wallpaper-810591.jpg');
+  background-position:center;
+  background-size: cover;
 }
 
 /* GLOBAL FONT STYLES */
@@ -68,19 +75,27 @@ h6 {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 1rem;
 }
 
 a {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-weight: bold;
+  color: #84cc16;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 #appTitle {
   font-family: "MontserratBold", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom:0;
 }
 
 /* END GLOBAL DEFAULTS */
@@ -113,10 +128,6 @@ h6 {
   font-size: 1rem;
 }
 
-p {
-  font-size: 0.9rem;
-}
-
 /* Min width of 768 */
 @media only screen and (min-width: 768px) {
   h1 {
@@ -144,7 +155,8 @@ p {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -172,10 +184,6 @@ p {
 
   h6 {
     font-size: 1.75rem;
-  }
-
-  p {
-    font-size: 1.5rem;
   }
 }
 
