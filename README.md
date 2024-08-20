@@ -1,5 +1,6 @@
 # Todo Test App - Create T3 App
 
+## v0.1.1
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
 ## Usage
@@ -16,24 +17,3 @@ npm install
 
 ```
 npm run dev
-```
-
-## What is this app
-
-- Home page
-  - Welcome blurb
-  - Login functionality
-- Account management
-  - Login system
-  - Profile
-    - Firstname
-    - Last Name
-    - Email address
-    - Profile Image via url
-  - Todo list
-    - Todos
-      - Title
-      - Created date
-      - Target completion date
-      - Description
-      - Status (Unstarted, Ongoing, Completed)
